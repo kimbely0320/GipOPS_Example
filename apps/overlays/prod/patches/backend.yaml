@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: backend:prod
+        image: node:14
         env:
         - name: NODE_ENV
           value: production

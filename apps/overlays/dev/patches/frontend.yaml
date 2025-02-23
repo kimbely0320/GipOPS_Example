@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: frontend:dev
+        image: nginx:1.19
         env:
         - name: API_URL
           value: http://backend:3000/dev
