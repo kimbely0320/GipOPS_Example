@@ -77,3 +77,12 @@ Handling connection for 8080
 Handling connection for 8080
 Handling connection for 8080
 Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+Handling connection for 8080
+E0223 21:58:39.360114   18113 portforward.go:381] error copying from remote stream to local connection: readfrom tcp4 127.0.0.1:8080->127.0.0.1:65149: write tcp4 127.0.0.1:8080->127.0.0.1:65149: write: broken pipe
