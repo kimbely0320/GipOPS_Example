@@ -1,0 +1,11 @@
+# apps/overlays/dev/kustomization.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+bases:
+- ../../base/frontend
+- ../../base/backend
+- ../../base/mongodb
+patches:
+- path: patches/frontend.yaml
+- path: patches/backend.yaml
+- path: patches/mongodb.yaml

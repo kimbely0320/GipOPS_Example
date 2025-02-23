@@ -1,0 +1,8 @@
+
+# apps/overlays/prod/patches/mongodb.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb
+spec:
+  replicas: 3

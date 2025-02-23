@@ -1,0 +1,23 @@
+# 前端配置
+# apps/base/frontend/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+      - name: frontend
+        image: frontend:1.0
+        ports:
+        - containerPort: 80
+        env:
+        - name: API_URL
+          value: http://backend:3000

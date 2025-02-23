@@ -1,0 +1,15 @@
+# apps/overlays/prod/patches/frontend.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+      - name: frontend
+        image: frontend:prod
+        env:
+        - name: API_URL
+          value: http://backend:3000/prod
