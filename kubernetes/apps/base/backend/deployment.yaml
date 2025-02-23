@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: kimbely/gitops_example:dev
+        image: httpd:2.4
         ports:
         - containerPort: 3000
         env:

@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: kimbely/gitops_example:dev
+        image: httpd:2.4
         env:
         - name: NODE_ENV
           value: development
