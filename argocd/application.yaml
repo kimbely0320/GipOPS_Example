@@ -7,8 +7,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-username/your-repo.git
-    targetRevision: HEAD
+    repoURL: https://github.com/kimbely0320/GipOPS_Example.git
+    targetRevision: "1.0.0"
     path: apps/overlays/dev
   destination:
     server: https://kubernetes.default.svc
@@ -27,8 +27,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-username/your-repo.git
-    targetRevision: HEAD
+    repoURL: https://github.com/kimbely0320/GipOPS_Example.git
+    targetRevision: "1.0.0"
     path: apps/overlays/prod
   destination:
     server: https://kubernetes.default.svc
