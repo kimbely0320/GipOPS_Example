@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/kimbely0320/GipOPS_Example.git
-    targetRevision: "1.0.0"
+    targetRevision: main
     path: apps/overlays/dev
   destination:
     server: https://kubernetes.default.svc
@@ -28,7 +28,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/kimbely0320/GipOPS_Example.git
-    targetRevision: "1.0.0"
+    targetRevision: main
     path: apps/overlays/prod
   destination:
     server: https://kubernetes.default.svc
